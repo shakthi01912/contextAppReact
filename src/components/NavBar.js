@@ -15,7 +15,7 @@ class NavBar extends Component {
 
         return (
         // <div  className ="nav"> 
-        <nav  style={{background:'#FF5733' }}> 
+        <nav  style={{background:theme.ui , color:theme.syntax }}> 
             <h1>Context App</h1>
             <ul>
                 <li>Home</li>

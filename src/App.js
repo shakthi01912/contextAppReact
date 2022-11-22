@@ -1,10 +1,17 @@
-import logo from './logo.svg';
+import BookList from './components/BookList';
+import NavBar from './components/NavBar';
+import ThemeContextProvider from './contexts/ContextTheme'
+
 
 
 function App() {
   return (
     <div className="App">
-      aswd
+      <ThemeContextProvider>
+      <NavBar />
+      <BookList />
+      </ThemeContextProvider>
+     
     </div>
   );
 }
